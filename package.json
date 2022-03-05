@@ -1,0 +1,37 @@
+{
+  "name": "lib-markdown-urls",
+  "version": "1.0.0",
+  "description": "This CLI that verify if the URLs of markdown be working",
+  "main": "./cli.js",
+  "bin": {
+    "lib-markdown-urls": "./cli.js"
+  },
+  "scripts": {
+    "cli": "node cli.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "markdown",
+    "URL"
+  ],
+  "author": "Janaina Pedrina",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "chalk": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/janapc/lib-markdown-urls/issues"
+  },
+  "homepage": "https://github.com/janapc/lib-markdown-urls",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janapc/lib-markdown-urls.git"
+  }
+}
